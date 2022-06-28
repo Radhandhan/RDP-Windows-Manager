@@ -114,7 +114,7 @@
          this.txtPort.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
          this.txtPort.BorderMode = RdpWindowsManager.Controls.Enums.BorderMode.Default;
          this.txtPort.BorderSize = 1;
-         this.txtPort.DefaultText = "";
+         this.txtPort.DefaultText = "3389";
          this.txtPort.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
          this.txtPort.HoverState.BorderSize = 1;
          this.txtPort.Location = new System.Drawing.Point(170, 77);
