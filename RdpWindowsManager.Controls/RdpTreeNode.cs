@@ -25,8 +25,6 @@ namespace RdpWindowsManager.Controls
          Username = si.GetString("Username");
          Password = si.GetString("Password");
          Port = si.GetInt32("Port");
-         ImageIndex = si.GetInt32("ImageIndex");
-         SelectedImageIndex = si.GetInt32("SelectedImageIndex");
       }
 
       protected override void Serialize(SerializationInfo si, StreamingContext context)
@@ -36,8 +34,6 @@ namespace RdpWindowsManager.Controls
          si.AddValue("Username", Username);
          si.AddValue("Password", Password);
          si.AddValue("Port", Port);
-         si.AddValue("ImageIndex", ImageIndex);
-         si.AddValue("SelectedImageIndex", SelectedImageIndex);
       }
    }
 }
